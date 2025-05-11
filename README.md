@@ -24,10 +24,13 @@ We use a modified Independent Cascade (IC) model:
 - Budget-aware influencer selection
 
 ## Files
-- `main.py`: Main simulation script
-- `NoseBook_friendships.csv`: Social graph (edges)
-- `haters.csv`: List of hater nodes with weights
-- `costs.csv`: Cost of selecting each node as influencer
+- `main.py` — Main simulation script
+- The following files are auto-generated when running the project:
+  - `NoseBook_friendships.csv` — Social graph edges
+  - `haters.csv` — Hater nodes and weights
+  - `costs.csv` — Cost of selecting each node as an influencer
+  - `submission.csv` — Final selected influencer list
+
 
 ## Requirements
 This project requires Python 3.7+ and the following packages:
